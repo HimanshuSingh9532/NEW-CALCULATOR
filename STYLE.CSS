@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rebeccapurple;
+}
+.main {
+  height: 690px;
+  width: 450px;
+  background: rgb(164, 128, 128);
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+.input-box .input-cal {
+  border: none;
+  outline: none;
+  height: 180px;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.number-pad button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 190px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  row-gap: 0;
+}
+
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-5 {
+  display: flex;
+  align-items: center;
+}
+.row-5 .btn-1 {
+    width: 120px;
+  height: 90px;
+  background: aqua;
+}
+.row-5 .btn-2 {
+    width: 120px;
+  height: 90px;
+  background: aqua;
+}
+.row-5 .btn-3 {
+    width: 235px;
+  height: 90px;
+  background: aqua;
+}
