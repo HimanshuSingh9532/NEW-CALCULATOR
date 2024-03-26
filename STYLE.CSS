@@ -23,8 +23,12 @@
   outline: none;
   height: 180px;
   width: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  font-size: 50px;
+  font-weight: bolder;
 }
 .number-pad button {
   display: flex;
